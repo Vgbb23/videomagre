@@ -2,7 +2,7 @@
   "name": "complexob",
   "private": true,
   "scripts": {
-    "build": "npm --prefix always-fit---complexo-b ci && npm --prefix always-fit---complexo-b run build"
+    "build": "npm --prefix THERMAGRE ci && npm --prefix THERMAGRE run build"
   },
   "dependencies": {
     "@vercel/node": "^5.1.14"

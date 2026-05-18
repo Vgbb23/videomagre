@@ -1,8 +1,7 @@
 import type {VercelRequest, VercelResponse} from '@vercel/node';
 
-/** ESM-only (package.json "type":"module" no app); `import()` evita require() no bundle CJS da Vercel. */
 async function loadPixCharge() {
-  const mod = await import('../../THERMAGRE/server/fruitfy-handlers.js');
+  const mod = await import('../../THERMAGRE/THERMAGRE/server/fruitfy-handlers.js');
   return mod.processPixCharge;
 }
 

@@ -1,7 +1,7 @@
 import type {VercelRequest, VercelResponse} from '@vercel/node';
 
 async function loadOrderLookup() {
-  const mod = await import('../../THERMAGRE/server/fruitfy-handlers.js');
+  const mod = await import('../../THERMAGRE/THERMAGRE/server/fruitfy-handlers.js');
   return mod.processOrderLookup;
 }
 

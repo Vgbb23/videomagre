@@ -1,0 +1,10 @@
+{
+  "name": "videomagre",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix THERMAGRE run build"
+  },
+  "dependencies": {
+    "@vercel/node": "^5.1.14"
+  }
+}

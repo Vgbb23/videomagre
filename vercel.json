@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install && npm install --prefix THERMAGRE && npm install --prefix THERMAGRE/THERMAGRE",
+  "buildCommand": "npm run build",
+  "outputDirectory": "THERMAGRE/THERMAGRE/dist",
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
